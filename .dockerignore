@@ -1,0 +1,13 @@
+.git
+.next
+node_modules
+prisma
+!prisma/schema.prisma
+src/generated/prisma
+.dockerignore
+.env*
+.gitignore
+**/*compose*
+**/*Dockerfile*
+LICENSE
+README.md
