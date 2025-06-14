@@ -39,7 +39,7 @@ export const CopyButton = ({ text, className, ...props }: CopyButtonProps) => {
             size="icon"
             disabled={copied}
             onClick={handleCopy}
-            className={cn("disabled:opacity-100", className)}
+            className={cn("relative disabled:opacity-100", className)}
             aria-label={copied ? "Copied" : "Copy to clipboard"}
             {...props}
           >
